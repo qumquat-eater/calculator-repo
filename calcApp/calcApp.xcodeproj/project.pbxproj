@@ -13,6 +13,7 @@
 		B1F9C01221073F890056DA32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F9C01121073F890056DA32 /* Assets.xcassets */; };
 		B1F9C01521073F890056DA32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F9C01321073F890056DA32 /* LaunchScreen.storyboard */; };
 		B1F9C020210741120056DA32 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9C01F210741120056DA32 /* RoundButton.swift */; };
+		B1F9C02421074B9D0056DA32 /* customDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9C02321074B9D0056DA32 /* customDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B1F9C01421073F890056DA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1F9C01621073F890056DA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1F9C01F210741120056DA32 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		B1F9C02321074B9D0056DA32 /* customDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B1F9C01F210741120056DA32 /* RoundButton.swift */,
+				B1F9C02321074B9D0056DA32 /* customDisplay.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				B1F9C020210741120056DA32 /* RoundButton.swift in Sources */,
 				B1F9C00D21073F7C0056DA32 /* MainVC.swift in Sources */,
 				B1F9C00B21073F7C0056DA32 /* AppDelegate.swift in Sources */,
+				B1F9C02421074B9D0056DA32 /* customDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
