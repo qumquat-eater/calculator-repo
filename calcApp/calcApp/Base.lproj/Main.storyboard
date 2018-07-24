@@ -58,10 +58,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="u2u-85-bka" userLabel="Mid">
-                                <rect key="frame" x="15.5" y="358" width="256" height="79.5"/>
+                                <rect key="frame" x="15.5" y="358" width="254" height="79"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCO-mT-CIF" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="79.5" height="79"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="hCO-mT-CIF" secondAttribute="height" multiplier="1:1" id="2AM-pe-22m"/>
                                             <constraint firstAttribute="width" constant="80" id="XeC-ED-DuY"/>
@@ -69,20 +69,20 @@
                                         <state key="normal" title="4"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8m-TQ-FSH" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="88" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="87.5" y="0.0" width="79" height="79"/>
                                         <state key="normal" title="5"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CV2-4p-PYk" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="176" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="174.5" y="0.0" width="79.5" height="79"/>
                                         <state key="normal" title="6"/>
                                     </button>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cw5-AG-v6Q" userLabel="Bottom">
-                                <rect key="frame" x="16" y="445" width="256" height="79.5"/>
+                                <rect key="frame" x="16" y="445" width="255.5" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJA-AS-Bs8" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="KJA-AS-Bs8" secondAttribute="height" multiplier="1:1" id="Env-cc-fCK"/>
                                             <constraint firstAttribute="width" constant="80" id="Lbc-yL-Dee"/>
@@ -90,20 +90,19 @@
                                         <state key="normal" title="1"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wep-Q1-hf0" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="88" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="88" y="0.0" width="79.5" height="80"/>
                                         <state key="normal" title="2"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apH-SF-DXd" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="176" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="175.5" y="0.0" width="80" height="80"/>
                                         <state key="normal" title="3"/>
                                     </button>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POz-Yz-5JQ" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                <rect key="frame" x="104" y="532.5" width="80" height="80"/>
+                                <rect key="frame" x="104" y="533" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="POz-Yz-5JQ" secondAttribute="height" multiplier="1:1" id="RyK-Wh-K0T"/>
-                                    <constraint firstAttribute="width" constant="80" id="vPe-L6-H6g"/>
                                 </constraints>
                                 <state key="normal" title="0"/>
                             </button>
@@ -119,7 +118,9 @@
                             <constraint firstAttribute="trailing" secondItem="mkK-r4-T67" secondAttribute="trailing" constant="16" id="Rcq-bR-JhE"/>
                             <constraint firstItem="Cw5-AG-v6Q" firstAttribute="top" secondItem="u2u-85-bka" secondAttribute="bottom" constant="8" id="Shq-gn-dEJ"/>
                             <constraint firstItem="u2u-85-bka" firstAttribute="top" secondItem="fQ3-QU-WPz" secondAttribute="bottom" constant="8" id="T3e-7G-cfb"/>
+                            <constraint firstItem="u2u-85-bka" firstAttribute="height" secondItem="Cw5-AG-v6Q" secondAttribute="height" id="VRX-AR-3Cd"/>
                             <constraint firstItem="Cw5-AG-v6Q" firstAttribute="leading" secondItem="hCO-mT-CIF" secondAttribute="leading" id="Xde-dx-531"/>
+                            <constraint firstItem="fQ3-QU-WPz" firstAttribute="height" secondItem="u2u-85-bka" secondAttribute="height" id="Zfl-Bu-nXc"/>
                             <constraint firstItem="mkK-r4-T67" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="b7W-79-PKm"/>
                             <constraint firstItem="mkK-r4-T67" firstAttribute="top" secondItem="NvY-RA-aAG" secondAttribute="bottom" constant="51" id="blr-UC-9yv"/>
                             <constraint firstItem="fQ3-QU-WPz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h8J-33-Xuz"/>
