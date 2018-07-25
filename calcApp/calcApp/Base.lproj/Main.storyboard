@@ -33,18 +33,30 @@
                                             <constraint firstAttribute="width" constant="80" id="j7c-H5-H6g"/>
                                         </constraints>
                                         <state key="normal" title="7"/>
+                                        <connections>
+                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iGm-45-p4O"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Azz-R6-OA2" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
                                         <rect key="frame" x="88" y="0.0" width="79.5" height="80"/>
                                         <state key="normal" title="8"/>
+                                        <connections>
+                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jA3-eq-yOh"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxz-HT-wxR" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
                                         <rect key="frame" x="175.5" y="0.0" width="80" height="80"/>
                                         <state key="normal" title="9"/>
+                                        <connections>
+                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LFL-m6-4gy"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zu-77-QA7" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
                                         <rect key="frame" x="263.5" y="0.0" width="79.5" height="80"/>
                                         <state key="normal" title="C"/>
+                                        <connections>
+                                            <action selector="clearBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yUq-Lk-r2G"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -53,7 +65,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="xQ7-fh-rru"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -67,44 +79,65 @@
                                             <constraint firstAttribute="width" constant="80" id="XeC-ED-DuY"/>
                                         </constraints>
                                         <state key="normal" title="4"/>
+                                        <connections>
+                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8HU-vY-4jq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8m-TQ-FSH" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
                                         <rect key="frame" x="87.5" y="0.0" width="79" height="79"/>
                                         <state key="normal" title="5"/>
+                                        <connections>
+                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MtV-hy-pr0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CV2-4p-PYk" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
                                         <rect key="frame" x="174.5" y="0.0" width="79.5" height="79"/>
                                         <state key="normal" title="6"/>
+                                        <connections>
+                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cAo-Uj-wYj"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cw5-AG-v6Q" userLabel="Bottom">
-                                <rect key="frame" x="15.5" y="445" width="255.5" height="79.5"/>
+                                <rect key="frame" x="15.5" y="445" width="255.5" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJA-AS-Bs8" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="KJA-AS-Bs8" secondAttribute="height" multiplier="1:1" id="Env-cc-fCK"/>
                                             <constraint firstAttribute="width" constant="80" id="Lbc-yL-Dee"/>
                                         </constraints>
                                         <state key="normal" title="1"/>
+                                        <connections>
+                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CwF-4f-iGO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wep-Q1-hf0" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="88" y="0.0" width="79.5" height="79.5"/>
+                                        <rect key="frame" x="88" y="0.0" width="79.5" height="80"/>
                                         <state key="normal" title="2"/>
+                                        <connections>
+                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uXI-Gb-zOG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apH-SF-DXd" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="175.5" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="175.5" y="0.0" width="80" height="80"/>
                                         <state key="normal" title="3"/>
+                                        <connections>
+                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3wo-Zi-upb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POz-Yz-5JQ" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                <rect key="frame" x="103.5" y="532.5" width="80" height="80"/>
+                                <rect key="frame" x="103.5" y="533" width="79.5" height="79.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="POz-Yz-5JQ" secondAttribute="height" multiplier="1:1" id="RyK-Wh-K0T"/>
                                 </constraints>
                                 <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RDf-SF-yrF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -127,6 +160,9 @@
                             <constraint firstItem="u2u-85-bka" firstAttribute="trailing" secondItem="lxz-HT-wxR" secondAttribute="trailing" id="qTP-gc-e09"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="displayLbl" destination="mkK-r4-T67" id="bcj-T4-xcY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

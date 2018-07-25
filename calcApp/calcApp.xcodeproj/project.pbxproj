@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1A4F6D22108A0910014C9EA /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4F6D12108A0910014C9EA /* Sum.swift */; };
+		B1A4F6D42108A0A00014C9EA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A4F6D32108A0A00014C9EA /* Extensions.swift */; };
 		B1F9C00B21073F7C0056DA32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9C00A21073F7C0056DA32 /* AppDelegate.swift */; };
 		B1F9C00D21073F7C0056DA32 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9C00C21073F7C0056DA32 /* MainVC.swift */; };
 		B1F9C01021073F7D0056DA32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F9C00E21073F7D0056DA32 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1A4F6D12108A0910014C9EA /* Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
+		B1A4F6D32108A0A00014C9EA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B1F9C00721073F7C0056DA32 /* calcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F9C00A21073F7C0056DA32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1F9C00C21073F7C0056DA32 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 		B1F9C01D210740DF0056DA32 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B1A4F6D12108A0910014C9EA /* Sum.swift */,
+				B1A4F6D32108A0A00014C9EA /* Extensions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,9 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A4F6D22108A0910014C9EA /* Sum.swift in Sources */,
 				B1F9C020210741120056DA32 /* RoundButton.swift in Sources */,
 				B1F9C00D21073F7C0056DA32 /* MainVC.swift in Sources */,
 				B1F9C00B21073F7C0056DA32 /* AppDelegate.swift in Sources */,
+				B1A4F6D42108A0A00014C9EA /* Extensions.swift in Sources */,
 				B1F9C02421074B9D0056DA32 /* customDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,18 +8,44 @@
 
 import UIKit
 
+func handleNumPress(number: String, sum: inout Sum, label: UILabel){
+    if sum.currentNum=="0"{
+        sum.currentNum=""
+    }
+    
+    if sum.currentNum.count < 9{
+    sum.currentNum.append(number)
+    }
+    
+    sum.currentNum.display(label: label)
+}
+
+func clearDisplay(sum: inout Sum)->String{
+    sum.currentNum = "0"
+    return sum.currentNum
+}
+
+var currentSum = Sum()
 class ViewController: UIViewController {
 
+    @IBOutlet weak var displayLbl: customDisplay!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        currentSum.currentNum.display(label: displayLbl)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func numBtnPressed(_ sender: UIButton) {
+        //print(sender.titleLabel!.text!)
+        
+        handleNumPress(number: sender.titleLabel!.text!, sum: &currentSum, label: displayLbl)
     }
-
+    
+    @IBAction func clearBtnPressed(_ sender: Any) {
+        clearDisplay(sum: &currentSum).display(label: displayLbl)
+    }
+    
 
 }
 
