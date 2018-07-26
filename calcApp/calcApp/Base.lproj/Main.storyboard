@@ -70,10 +70,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="u2u-85-bka" userLabel="Mid">
-                                <rect key="frame" x="15.5" y="358" width="254" height="79"/>
+                                <rect key="frame" x="15.5" y="358" width="255.5" height="79.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCO-mT-CIF" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="79.5" height="79"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="79.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="hCO-mT-CIF" secondAttribute="height" multiplier="1:1" id="2AM-pe-22m"/>
                                             <constraint firstAttribute="width" constant="80" id="XeC-ED-DuY"/>
@@ -84,14 +84,14 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8m-TQ-FSH" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="87.5" y="0.0" width="79" height="79"/>
+                                        <rect key="frame" x="88" y="0.0" width="79.5" height="79.5"/>
                                         <state key="normal" title="5"/>
                                         <connections>
                                             <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MtV-hy-pr0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CV2-4p-PYk" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="174.5" y="0.0" width="79.5" height="79"/>
+                                        <rect key="frame" x="175.5" y="0.0" width="80" height="79.5"/>
                                         <state key="normal" title="6"/>
                                         <connections>
                                             <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cAo-Uj-wYj"/>
@@ -100,10 +100,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cw5-AG-v6Q" userLabel="Bottom">
-                                <rect key="frame" x="15.5" y="445" width="255.5" height="80"/>
+                                <rect key="frame" x="15.5" y="445.5" width="257" height="80.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJA-AS-Bs8" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="KJA-AS-Bs8" secondAttribute="height" multiplier="1:1" id="Env-cc-fCK"/>
                                             <constraint firstAttribute="width" constant="80" id="Lbc-yL-Dee"/>
@@ -114,14 +114,14 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wep-Q1-hf0" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="88" y="0.0" width="79.5" height="80"/>
+                                        <rect key="frame" x="88.5" y="0.0" width="80" height="80.5"/>
                                         <state key="normal" title="2"/>
                                         <connections>
                                             <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uXI-Gb-zOG"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apH-SF-DXd" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="175.5" y="0.0" width="80" height="80"/>
+                                        <rect key="frame" x="176.5" y="0.0" width="80.5" height="80.5"/>
                                         <state key="normal" title="3"/>
                                         <connections>
                                             <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3wo-Zi-upb"/>
@@ -130,7 +130,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POz-Yz-5JQ" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                <rect key="frame" x="103.5" y="533" width="79.5" height="79.5"/>
+                                <rect key="frame" x="104" y="534" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="POz-Yz-5JQ" secondAttribute="height" multiplier="1:1" id="RyK-Wh-K0T"/>
                                 </constraints>
@@ -139,9 +139,17 @@
                                     <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RDf-SF-yrF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcC-ta-KVZ" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
+                                <rect key="frame" x="279.5" y="534" width="79.5" height="79.5"/>
+                                <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9kl-hX-706"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="RcC-ta-KVZ" firstAttribute="leading" secondItem="3zu-77-QA7" secondAttribute="leading" id="74J-z9-vDa"/>
                             <constraint firstItem="POz-Yz-5JQ" firstAttribute="top" secondItem="Cw5-AG-v6Q" secondAttribute="bottom" constant="8" id="9JW-zD-O8E"/>
                             <constraint firstItem="fQ3-QU-WPz" firstAttribute="top" secondItem="mkK-r4-T67" secondAttribute="bottom" constant="109" id="J2y-jB-E6S"/>
                             <constraint firstItem="u2u-85-bka" firstAttribute="leading" secondItem="t0E-qu-5dI" secondAttribute="leading" id="Lfs-US-mDJ"/>
@@ -152,12 +160,15 @@
                             <constraint firstItem="u2u-85-bka" firstAttribute="top" secondItem="fQ3-QU-WPz" secondAttribute="bottom" constant="8" id="T3e-7G-cfb"/>
                             <constraint firstItem="u2u-85-bka" firstAttribute="height" secondItem="Cw5-AG-v6Q" secondAttribute="height" id="VRX-AR-3Cd"/>
                             <constraint firstItem="Cw5-AG-v6Q" firstAttribute="leading" secondItem="hCO-mT-CIF" secondAttribute="leading" id="Xde-dx-531"/>
+                            <constraint firstItem="RcC-ta-KVZ" firstAttribute="bottom" secondItem="POz-Yz-5JQ" secondAttribute="bottom" id="ZJM-3c-5fi"/>
                             <constraint firstItem="fQ3-QU-WPz" firstAttribute="height" secondItem="u2u-85-bka" secondAttribute="height" id="Zfl-Bu-nXc"/>
                             <constraint firstItem="mkK-r4-T67" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="b7W-79-PKm"/>
                             <constraint firstItem="mkK-r4-T67" firstAttribute="top" secondItem="NvY-RA-aAG" secondAttribute="bottom" constant="51" id="blr-UC-9yv"/>
+                            <constraint firstItem="RcC-ta-KVZ" firstAttribute="top" secondItem="POz-Yz-5JQ" secondAttribute="top" id="cW7-X8-Wpu"/>
                             <constraint firstItem="fQ3-QU-WPz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h8J-33-Xuz"/>
                             <constraint firstItem="POz-Yz-5JQ" firstAttribute="trailing" secondItem="wep-Q1-hf0" secondAttribute="trailing" id="kH0-Ju-HMC"/>
                             <constraint firstItem="u2u-85-bka" firstAttribute="trailing" secondItem="lxz-HT-wxR" secondAttribute="trailing" id="qTP-gc-e09"/>
+                            <constraint firstItem="RcC-ta-KVZ" firstAttribute="trailing" secondItem="3zu-77-QA7" secondAttribute="trailing" id="x3z-KJ-B5e"/>
                         </constraints>
                     </view>
                     <connections>
