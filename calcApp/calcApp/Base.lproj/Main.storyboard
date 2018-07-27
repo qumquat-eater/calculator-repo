@@ -140,10 +140,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcC-ta-KVZ" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                <rect key="frame" x="279.5" y="534" width="79.5" height="79.5"/>
+                                <rect key="frame" x="279.5" y="534" width="79.5" height="80.5"/>
                                 <state key="normal" title="="/>
                                 <connections>
-                                    <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9kl-hX-706"/>
+                                    <action selector="equalBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wze-1r-VMz"/>
                                 </connections>
                             </button>
                         </subviews>

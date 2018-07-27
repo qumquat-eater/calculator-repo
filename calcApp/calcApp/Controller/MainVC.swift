@@ -9,6 +9,12 @@
 import UIKit
 
 func handleNumPress(number: String, sum: inout Sum, label: UILabel){
+    
+    if sum.answer != nil{
+        sum.answer = nil
+        sum.currentNum = "0"
+    }
+    
     if sum.currentNum=="0"{
         sum.currentNum=""
     }
@@ -16,14 +22,29 @@ func handleNumPress(number: String, sum: inout Sum, label: UILabel){
     if sum.currentNum.count < 9{
     sum.currentNum.append(number)
     }
-    
     sum.currentNum.display(label: label)
 }
 
 func clearDisplay(sum: inout Sum)->String{
     sum.currentNum = "0"
+    sum.answer=nil
+    sum.function=nil
+    sum.firstNum = 0
     return sum.currentNum
 }
+
+func doSum(sum: Sum)->Double{
+    var answer: Double = 0
+    if sum.function==nil{
+        answer = Double(sum.currentNum)!
+    }else if sum.function == "+"{
+        answer = Double(sum.currentNum)!+sum.firstNum
+    }
+    
+    
+    return answer
+}
+
 
 var currentSum = Sum()
 class ViewController: UIViewController {
@@ -44,6 +65,14 @@ class ViewController: UIViewController {
     
     @IBAction func clearBtnPressed(_ sender: Any) {
         clearDisplay(sum: &currentSum).display(label: displayLbl)
+    }
+    
+    @IBAction func equalBtnPressed(_ sender: Any) {
+        currentSum.answer = doSum(sum: currentSum)
+        currentSum.answer!.cleanValue().display(label: displayLbl)
+        //String(currentSum.answer!).display(label: displayLbl) for testing
+        currentSum.currentNum = String(currentSum.answer!)
+        currentSum.function=nil
     }
     
 
