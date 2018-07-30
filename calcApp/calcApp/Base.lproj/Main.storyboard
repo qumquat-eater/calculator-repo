@@ -146,19 +146,27 @@
                                     <action selector="equalBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wze-1r-VMz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yZ-nO-vBM" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
+                                <rect key="frame" x="280" y="445.5" width="79.5" height="80.5"/>
+                                <state key="normal" title="+"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="0yZ-nO-vBM" firstAttribute="trailing" secondItem="3zu-77-QA7" secondAttribute="trailing" id="3zc-gv-10n"/>
                             <constraint firstItem="RcC-ta-KVZ" firstAttribute="leading" secondItem="3zu-77-QA7" secondAttribute="leading" id="74J-z9-vDa"/>
                             <constraint firstItem="POz-Yz-5JQ" firstAttribute="top" secondItem="Cw5-AG-v6Q" secondAttribute="bottom" constant="8" id="9JW-zD-O8E"/>
+                            <constraint firstItem="0yZ-nO-vBM" firstAttribute="top" secondItem="apH-SF-DXd" secondAttribute="top" id="BZJ-HC-Atv"/>
                             <constraint firstItem="fQ3-QU-WPz" firstAttribute="top" secondItem="mkK-r4-T67" secondAttribute="bottom" constant="109" id="J2y-jB-E6S"/>
                             <constraint firstItem="u2u-85-bka" firstAttribute="leading" secondItem="t0E-qu-5dI" secondAttribute="leading" id="Lfs-US-mDJ"/>
                             <constraint firstItem="POz-Yz-5JQ" firstAttribute="leading" secondItem="wep-Q1-hf0" secondAttribute="leading" id="OLM-LQ-uBx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fQ3-QU-WPz" secondAttribute="trailing" id="Pgq-Q7-YHe"/>
                             <constraint firstAttribute="trailing" secondItem="mkK-r4-T67" secondAttribute="trailing" constant="16" id="Rcq-bR-JhE"/>
+                            <constraint firstItem="0yZ-nO-vBM" firstAttribute="leading" secondItem="3zu-77-QA7" secondAttribute="leading" id="SdB-6N-MDg"/>
                             <constraint firstItem="Cw5-AG-v6Q" firstAttribute="top" secondItem="u2u-85-bka" secondAttribute="bottom" constant="8" id="Shq-gn-dEJ"/>
                             <constraint firstItem="u2u-85-bka" firstAttribute="top" secondItem="fQ3-QU-WPz" secondAttribute="bottom" constant="8" id="T3e-7G-cfb"/>
                             <constraint firstItem="u2u-85-bka" firstAttribute="height" secondItem="Cw5-AG-v6Q" secondAttribute="height" id="VRX-AR-3Cd"/>
+                            <constraint firstItem="0yZ-nO-vBM" firstAttribute="bottom" secondItem="apH-SF-DXd" secondAttribute="bottom" id="WSD-aU-ba4"/>
                             <constraint firstItem="Cw5-AG-v6Q" firstAttribute="leading" secondItem="hCO-mT-CIF" secondAttribute="leading" id="Xde-dx-531"/>
                             <constraint firstItem="RcC-ta-KVZ" firstAttribute="bottom" secondItem="POz-Yz-5JQ" secondAttribute="bottom" id="ZJM-3c-5fi"/>
                             <constraint firstItem="fQ3-QU-WPz" firstAttribute="height" secondItem="u2u-85-bka" secondAttribute="height" id="Zfl-Bu-nXc"/>
