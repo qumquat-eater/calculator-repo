@@ -33,6 +33,24 @@ func clearDisplay(sum: inout Sum)->String{
     return sum.currentNum
 }
 
+func handleFunction(sum: inout Sum, label: UILabel, function: String){
+    
+    
+    if sum.function != nil{
+        sum.answer = doSum(sum: sum)
+        sum.currentNum = String(sum.answer!.cleanValue())
+        //sum.currentNum = String(sum.answer!)
+        sum.currentNum.display(label: label)
+        sum.firstNum = Double(sum.currentNum)!
+    }else{
+        sum.firstNum = Double(sum.currentNum)!
+        sum.currentNum="0"
+        sum.currentNum.display(label: label)
+    }
+    
+    sum.function = function
+}
+
 func doSum(sum: Sum)->Double{
     var answer: Double = 0
     if sum.function==nil{
@@ -73,8 +91,12 @@ class ViewController: UIViewController {
         //String(currentSum.answer!).display(label: displayLbl) for testing
         currentSum.currentNum = String(currentSum.answer!)
         currentSum.function=nil
+        currentSum.firstNum=0 
     }
     
-
+    @IBAction func funcPressed(_ sender: UIButton) {
+        handleFunction(sum: &currentSum, label: displayLbl, function: sender.titleLabel!.text!)
+    }
+    
 }
 

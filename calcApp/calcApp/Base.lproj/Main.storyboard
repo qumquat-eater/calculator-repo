@@ -149,6 +149,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yZ-nO-vBM" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
                                 <rect key="frame" x="280" y="445.5" width="79.5" height="80.5"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="funcPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UYu-AU-vef"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
