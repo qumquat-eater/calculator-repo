@@ -70,10 +70,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="u2u-85-bka" userLabel="Mid">
-                                <rect key="frame" x="15.5" y="358" width="255.5" height="79.5"/>
+                                <rect key="frame" x="15.5" y="358" width="254" height="79"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCO-mT-CIF" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="79.5" height="79"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="hCO-mT-CIF" secondAttribute="height" multiplier="1:1" id="2AM-pe-22m"/>
                                             <constraint firstAttribute="width" constant="80" id="XeC-ED-DuY"/>
@@ -84,14 +84,14 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8m-TQ-FSH" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="88" y="0.0" width="79.5" height="79.5"/>
+                                        <rect key="frame" x="87.5" y="0.0" width="79" height="79"/>
                                         <state key="normal" title="5"/>
                                         <connections>
                                             <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MtV-hy-pr0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CV2-4p-PYk" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="175.5" y="0.0" width="80" height="79.5"/>
+                                        <rect key="frame" x="174.5" y="0.0" width="79.5" height="79"/>
                                         <state key="normal" title="6"/>
                                         <connections>
                                             <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cAo-Uj-wYj"/>
@@ -100,10 +100,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cw5-AG-v6Q" userLabel="Bottom">
-                                <rect key="frame" x="15.5" y="445.5" width="257" height="80.5"/>
+                                <rect key="frame" x="15.5" y="445" width="254" height="79.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJA-AS-Bs8" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="79.5" height="79.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="KJA-AS-Bs8" secondAttribute="height" multiplier="1:1" id="Env-cc-fCK"/>
                                             <constraint firstAttribute="width" constant="80" id="Lbc-yL-Dee"/>
@@ -114,14 +114,14 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wep-Q1-hf0" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="88.5" y="0.0" width="80" height="80.5"/>
+                                        <rect key="frame" x="87.5" y="0.0" width="79" height="79.5"/>
                                         <state key="normal" title="2"/>
                                         <connections>
                                             <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uXI-Gb-zOG"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apH-SF-DXd" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                        <rect key="frame" x="176.5" y="0.0" width="80.5" height="80.5"/>
+                                        <rect key="frame" x="174.5" y="0.0" width="79.5" height="79.5"/>
                                         <state key="normal" title="3"/>
                                         <connections>
                                             <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3wo-Zi-upb"/>
@@ -130,7 +130,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POz-Yz-5JQ" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                <rect key="frame" x="104" y="534" width="80" height="80"/>
+                                <rect key="frame" x="103" y="532.5" width="79" height="79"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="POz-Yz-5JQ" secondAttribute="height" multiplier="1:1" id="RyK-Wh-K0T"/>
                                 </constraints>
@@ -140,17 +140,24 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcC-ta-KVZ" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                <rect key="frame" x="279.5" y="534" width="79.5" height="80.5"/>
+                                <rect key="frame" x="279.5" y="532.5" width="79.5" height="78.5"/>
                                 <state key="normal" title="="/>
                                 <connections>
                                     <action selector="equalBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wze-1r-VMz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yZ-nO-vBM" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
-                                <rect key="frame" x="280" y="445.5" width="79.5" height="80.5"/>
+                                <rect key="frame" x="280" y="445" width="79.5" height="79.5"/>
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <action selector="funcPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UYu-AU-vef"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2c-wI-8my" customClass="RoundButton" customModule="calcApp" customModuleProvider="target">
+                                <rect key="frame" x="280" y="358" width="79.5" height="79.5"/>
+                                <state key="normal" title="x"/>
+                                <connections>
+                                    <action selector="funcPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K4g-4h-1gE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -160,8 +167,11 @@
                             <constraint firstItem="RcC-ta-KVZ" firstAttribute="leading" secondItem="3zu-77-QA7" secondAttribute="leading" id="74J-z9-vDa"/>
                             <constraint firstItem="POz-Yz-5JQ" firstAttribute="top" secondItem="Cw5-AG-v6Q" secondAttribute="bottom" constant="8" id="9JW-zD-O8E"/>
                             <constraint firstItem="0yZ-nO-vBM" firstAttribute="top" secondItem="apH-SF-DXd" secondAttribute="top" id="BZJ-HC-Atv"/>
+                            <constraint firstItem="l2c-wI-8my" firstAttribute="bottom" secondItem="CV2-4p-PYk" secondAttribute="bottom" id="Cn0-sa-7yS"/>
+                            <constraint firstItem="l2c-wI-8my" firstAttribute="trailing" secondItem="3zu-77-QA7" secondAttribute="trailing" id="GeP-hl-1Qv"/>
                             <constraint firstItem="fQ3-QU-WPz" firstAttribute="top" secondItem="mkK-r4-T67" secondAttribute="bottom" constant="109" id="J2y-jB-E6S"/>
                             <constraint firstItem="u2u-85-bka" firstAttribute="leading" secondItem="t0E-qu-5dI" secondAttribute="leading" id="Lfs-US-mDJ"/>
+                            <constraint firstItem="l2c-wI-8my" firstAttribute="top" secondItem="CV2-4p-PYk" secondAttribute="top" id="NUQ-sp-glw"/>
                             <constraint firstItem="POz-Yz-5JQ" firstAttribute="leading" secondItem="wep-Q1-hf0" secondAttribute="leading" id="OLM-LQ-uBx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fQ3-QU-WPz" secondAttribute="trailing" id="Pgq-Q7-YHe"/>
                             <constraint firstAttribute="trailing" secondItem="mkK-r4-T67" secondAttribute="trailing" constant="16" id="Rcq-bR-JhE"/>
@@ -179,6 +189,7 @@
                             <constraint firstItem="fQ3-QU-WPz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h8J-33-Xuz"/>
                             <constraint firstItem="POz-Yz-5JQ" firstAttribute="trailing" secondItem="wep-Q1-hf0" secondAttribute="trailing" id="kH0-Ju-HMC"/>
                             <constraint firstItem="u2u-85-bka" firstAttribute="trailing" secondItem="lxz-HT-wxR" secondAttribute="trailing" id="qTP-gc-e09"/>
+                            <constraint firstItem="l2c-wI-8my" firstAttribute="leading" secondItem="3zu-77-QA7" secondAttribute="leading" id="svi-GR-FzH"/>
                             <constraint firstItem="RcC-ta-KVZ" firstAttribute="trailing" secondItem="3zu-77-QA7" secondAttribute="trailing" id="x3z-KJ-B5e"/>
                         </constraints>
                     </view>

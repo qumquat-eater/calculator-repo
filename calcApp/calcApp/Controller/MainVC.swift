@@ -57,6 +57,8 @@ func doSum(sum: Sum)->Double{
         answer = Double(sum.currentNum)!
     }else if sum.function == "+"{
         answer = Double(sum.currentNum)!+sum.firstNum
+    }else if sum.function == "x"{
+        answer = Double(sum.currentNum)!*sum.firstNum
     }
     
     
